@@ -1,0 +1,19 @@
+{
+  "name": "projet4-sass",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./sass/bootstrap.scss:.bootstrap.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greg-programmer/Gregory.Schoemaecker_4_25012022_original-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greg-programmer/Gregory.Schoemaecker_4_25012022_original-/issues"
+  },
+  "homepage": "https://github.com/greg-programmer/Gregory.Schoemaecker_4_25012022_original-#readme"
+}
