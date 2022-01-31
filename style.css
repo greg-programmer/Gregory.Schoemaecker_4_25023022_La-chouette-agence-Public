@@ -1119,7 +1119,7 @@ h4 {
           align-items: center;
     }
     .h4-bloc-center{
-        margin-bottom: 30px;
+        margin: 60px auto;
     }
     .social{
         display: flex;
