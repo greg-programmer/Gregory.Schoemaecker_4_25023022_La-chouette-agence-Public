@@ -7,6 +7,17 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.h3-title{
+	font-weight: 500;
+	font-size: 24px;
+	color: #c27956;
+    text-align: center;    
+    position: relative;
+    letter-spacing: 1px;
+}
+.h3-title-white{
+    color: #FFF;
+}
  .h4-bloc-center{
      width: 100%;
      display: flex;
@@ -25,6 +36,20 @@ h4{
 .h4-margin-top{
     
     width: auto;
+}
+.around-style{   
+    width: 120px;   
+    height: 100PX;
+    margin:  24px auto 14px auto;        
+    display: flex;
+    justify-content: center;   
+    border: 1px solid black;
+    border-radius: 6px;
+}   
+ i{
+    color: #364577;
+    font-size: 72PX;  
+    margin: auto;     
 }
 
 a,
@@ -328,7 +353,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 38px;
 }
 
 .navbar {
@@ -369,7 +394,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.8rem;
     transition-duration: 0.2s;    
     margin-left: 10px;     
 }
@@ -700,7 +725,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 .container {
     max-width: 1000px;
@@ -725,11 +750,11 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.5rem;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 85%;
     margin: auto auto auto auto;
 }
 
@@ -753,7 +778,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.4em;
 }
 
@@ -761,7 +786,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -1031,7 +1056,7 @@ h4 {
         padding: 40px 0;
     }
     .bloc-lg{
-        width: 90%;
+        width: 100%;
         margin: auto;        
     }
     .bloc-sm,
@@ -1090,6 +1115,9 @@ h4 {
     }       
     .mg-md{
         margin-bottom: 10px;
+    }
+    .tight-width-whitespace {
+        max-width: 100%;        
     }
 }
 @media (max-width: 767px) {
