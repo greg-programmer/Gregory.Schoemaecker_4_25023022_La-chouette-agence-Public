@@ -15,8 +15,16 @@ body {
     position: relative;
     letter-spacing: 1px;
 }
+.h3-title-color{
+    background-color: rgb(54, 69, 119);
+    color: rgb(194, 121, 86);
+    width: 61%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
 .h3-title-white{
-    color: #FFF;
+    color: rgb(194, 121, 86);
 }
  .h4-bloc-center{
      width: 100%;
@@ -756,6 +764,7 @@ p {
 .tight-width-whitespace {
     max-width: 85%;
     margin: auto auto auto auto;
+    position: relative;
 }
 
 .h1 {
@@ -807,9 +816,10 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
+.col-sm-12 > .color{  
+   color: rgb(194, 121, 86);}
 .white {
-    color: #FFFFFF!important;
+    color: white;
 }
 
 .portfolio-thumb {
@@ -829,7 +839,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color:rgb(54, 69, 119);;
     padding: 40px 40px 40px 40px;
 }
 
