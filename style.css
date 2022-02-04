@@ -1495,11 +1495,11 @@ textarea:focus{
     }
     input[type=submit]{
         margin-top: 20px;
+        background-color: #F3976C;
     }
     .location{
         border-radius: 0;
-        width: 100%;
-        height: 100%;
+        width: 100%;        
         display: flex;
         justify-content: center;
         margin: 0;
