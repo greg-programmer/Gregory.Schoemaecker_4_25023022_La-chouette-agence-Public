@@ -417,6 +417,9 @@ h2 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 30px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
 }
 
 h3 {
@@ -2025,7 +2028,6 @@ button.close {
     float: left;
     width: 100%;
   }
-
   .col-sm-3 {
     float: left;
     width: 25%;

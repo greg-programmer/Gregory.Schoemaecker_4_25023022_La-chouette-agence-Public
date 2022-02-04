@@ -74,6 +74,10 @@ template {
   display: none;
 }
 
+.h3-center {
+  color: #8a6d3b;
+}
+
 a {
   background-color: transparent;
   color: #337ab7;
@@ -354,6 +358,16 @@ th:after:before {
   height: auto;
   box-shadow: 2px 2px 2px grey;
 }
+@media all and (max-width: 760px) {
+  .img-responsive {
+    width: 80%;
+  }
+}
+@media all and (max-width: 499px) {
+  .img-responsive {
+    width: 100%;
+  }
+}
 
 .sr-only {
   position: absolute;
@@ -417,9 +431,6 @@ h2 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 30px;
-  width: 90%;
-  display: flex;
-  justify-content: center;
 }
 
 h3 {
@@ -496,6 +507,11 @@ address {
 .row {
   margin-right: -15px;
   margin-left: -15px;
+}
+@media all and (max-width: 767px) {
+  .row {
+    margin: auto;
+  }
 }
 .row:after {
   display: table;
@@ -1215,6 +1231,24 @@ tbody.collapse.in {
   content: " ";
 }
 
+.navbar.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media all and (max-width: 768px) {
+  .navbar-header {
+    margin: auto;
+    width: 90%;
+  }
+}
+@media all and (max-width: 500px) {
+  .navbar-header {
+    margin: auto;
+    width: 96%;
+  }
+}
+
 .navbar {
   position: relative;
   min-height: 50px;
@@ -1223,7 +1257,7 @@ tbody.collapse.in {
 }
 @media all and (max-width: 768px) {
   .navbar {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
 }
@@ -2213,4 +2247,4 @@ button.close {
   }
 }
 
-/*# sourceMappingURL=.bootstrap.css.map */
+/*# sourceMappingURL=bootstrap.css.map */
