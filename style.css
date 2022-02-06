@@ -45,6 +45,7 @@ body {
     font-size: 24px;
     font-weight: lighter;
     text-align: center;
+    font-weight: 600;
 }
  .h4-bloc-center{
      width: 100%;
@@ -91,7 +92,7 @@ button {
     outline: none!important;
 }
 li > a:focus-visible{
-    background-color: #364577;
+    background-color: #000000;
     color: white;
 
 } 
@@ -654,10 +655,6 @@ a[data-lightbox] {
     display: block;
     text-align: center;
 }
-a[data-lightbox]:focus-visible {
-    box-shadow: 4px 4px 30px black;
-}
-
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
@@ -687,6 +684,9 @@ a[data-lightbox]:hover img {
     opacity: 0.6;    
     transform: scale(1.1);
     box-shadow: 2px 2px 2px #F3976C;
+}
+a[data-lightbox]:focus img {
+    box-shadow: 10px 10px 10px #000000;
 }
 
 #lightbox-modal {
@@ -834,11 +834,9 @@ p {
     max-width: 400px;
     margin: auto auto 39px auto;    
 }
-.social:focus-visible .fa {
-    border: 1px solid #364577 !important;
-    border-radius: 10px;    
+.social:focus-visible .fa {      
     z-index: 20PX;
-    color:#364577;  
+    color:#000000; 
     padding: 6px;     
 }
 h2 {
