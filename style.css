@@ -8,44 +8,47 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 .h3-title{
-	font-weight: 500;
-	font-size: 24px;
-	color: #c27956;
+	font-weight: 700;
+	font-size: 15px;
+	color: #000000;
     text-align: center;    
     position: relative;
     letter-spacing: 1.5px;
+    padding: 15px;
 }
 .h3-title-color{   
     
     width: 61%;
     height: auto;
     margin: auto;    
-    background:url('img/dots-bg.png');
-    background-color:#F3976C;         
-    color: rgb(255, 255, 255,0.7);
+    background:url('img/dots-bg.png');         
+    color: rgb(255, 255, 255,0.8);
     position: relative;    
     display: flex;
     justify-content: center;    
 }
 .h3-title-color::before{
     content: '';
-    background:url('img/texture-paper.png');
+    background:rgb(255, 255, 255,0.8);
     background-size: 280px 280px;    
     position: absolute; 
-    width: 100%;
+    width: 80%;
     height: 100%;   
     display: flex;     
 }
 .h3-title-white{
-    color: white;  
+    color: #333333; 
+    width: 100%;
+    margin: auto;
 }
 .h3-title-color-white{
-    color: white;
+    color: #333333;
     position:relative;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: lighter;
-    text-align: center;
-    font-weight: 500;
+    text-align: center;   
+    margin: 0;
+    padding: 5px;
 }
  .h4-bloc-center{
      width: 100%;
@@ -808,6 +811,16 @@ a {
 p {
     font-size: 1.5rem;
     letter-spacing: 1.5px;
+    color: #575757 !important;
+}
+p > i{
+    font-size: x-large;  
+}
+.color{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;  
+    margin-top: 20px;  
 }
 
 .tight-width-whitespace {
@@ -876,10 +889,10 @@ h4 {
     margin-top: 24px;
 }
 .col-sm-12 > .color{  
-   color:white;
+   color:rgba(0, 0, 0, .6);
 }
 .white {
-    color: #f3fef6;
+    color: #f3fef6 !important;
 }
 
 .portfolio-thumb {
@@ -899,20 +912,13 @@ h4 {
 }
 
 .black-background {
-    background:url('img/dots-bg.png');
-    background-color:#F3976C;
-    width: 600px;  
-    height: 100%;     
+    background-color:rgb(255, 255, 255,0.8);
+    width: 450px;  
+    height: 500px;     
     color: rgb(255, 255, 255,0.7);
     position: relative;    
-}
-.black-background::before{
-    content: '';
-    background:url('img/texture-paper.png');
-    background-size: 280px 280px;    
-    position: absolute; 
-    width: 100%;
-    height: 100%;    
+    display: flex;
+    align-items: center;
 }
 
 .bold-link {
