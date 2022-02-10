@@ -33,7 +33,7 @@ iframe{
 }
 .h3-title-color::before{
     content: '';
-    background:rgb(255, 255, 255,0.8);
+    background:rgb(255, 255, 255);
     background-size: 280px 280px;    
     position: absolute; 
     width: 85%;
@@ -924,7 +924,7 @@ h4 {
 }
 
 .black-background {
-    background-color:rgb(255, 255, 255,0.8);
+    background-color:rgb(255, 255, 255);
     width: 450px;  
     height: 500px;     
     color: rgb(255, 255, 255,0.7);
