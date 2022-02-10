@@ -860,7 +860,7 @@ p > i{
     margin: auto auto 39px auto;    
 }
 .social:focus-visible .fa {      
-    z-index: 20PX;
+    z-index: 20;
     color:#000000; 
     padding: 6px;     
 }
@@ -1031,19 +1031,6 @@ h4 {
         max-width: 100%
     }
 }
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
 @media (max-width: 991px) {
     .container {
         width: 100%;
@@ -1055,11 +1042,7 @@ h4 {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
-    }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    }   
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -1067,9 +1050,7 @@ h4 {
     }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding: 0 20px;       
     }
 }
 
@@ -1512,8 +1493,7 @@ textarea:focus{
     .form-left{
         width: 100%;
         margin: auto;
-        height: auto;
-        overflow: none;
+        height: auto;        
         border-radius: 0;
         border: none;
     } 
@@ -1561,10 +1541,7 @@ textarea:focus{
     }
     .color{
        width: 100%;   
-    }
-    .row{
-        margin: 0;
-    }
+    }    
 }
 /*tablette 768px*/
 /*Ipad pro 1024px*/
