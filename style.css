@@ -47,6 +47,7 @@ iframe{
 }
 .h3-title-color-white{
     color: #F3976C;
+    color: #DAD9CC;
     position:relative;
     font-size: 1.2em;
     font-weight: lighter;
@@ -107,7 +108,7 @@ button {
     outline: none!important;
 }
 li > a:focus-visible{
-    background-color: #000000;
+    background-color: #F3976C;
     color: white;
 
 } 
