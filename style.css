@@ -25,19 +25,20 @@ iframe{
     height: auto;
     margin: auto;    
     background:url('img/dots-bg.png');         
-    color: rgb(255, 255, 255,0.8);
+    color: #504646!important;
     position: relative;    
     display: flex;
     justify-content: center;    
 }
 .h3-title-color::before{
     content: '';
-    background:rgb(255, 255, 255);
+    background:#504646;
     background-size: 280px 280px;    
     position: absolute; 
     width: 85%;
     height: 100%;   
-    display: flex;     
+    display: flex;    
+    box-shadow: 2px 2px 6px #504646; 
 }
 .h3-title-white{
     color: #333333; 
@@ -45,7 +46,7 @@ iframe{
     margin: auto;
 }
 .h3-title-color-white{
-    color: #333333;
+    color: #F3976C;
     position:relative;
     font-size: 1.2em;
     font-weight: lighter;
@@ -83,7 +84,7 @@ h4{
 h5{
     font-size: 1.2em;
     font-weight: 1000 !important;
-    color: white !important;
+    color: #504646 !important;
 }
 .around-style{   
     width: 120px;   
@@ -223,11 +224,6 @@ a:hover {
 .b-parallax {
     background-attachment: fixed;
 }
-
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
-
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
@@ -258,7 +254,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #504646;
 }
 
 .d-bloc .a-btn:hover,
@@ -460,7 +456,7 @@ a:hover {
 }
 .nav > li > a:focus-visible{
   background-color: #F3976C !important;
-  color: white;
+  color: #504646;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -911,7 +907,7 @@ h4 {
    color:rgba(0, 0, 0, .6);
 }
 .white {
-    color: #f3fef6 !important;
+    color: #504646 !important;
 }
 
 .portfolio-thumb {
@@ -954,10 +950,11 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #26474E!important;
     transform: scale(1);
     transition-duration: 0.3s;
     font-size: 1.2em;
+    border: 1px solid #504646;
 }
 .ltc-white {
     color: #FFFFFF!important;
@@ -997,7 +994,7 @@ h4 {
 }
 /*Footer*/
 .col-sm-4 > ul > li > a {
-    color: white;
+    color: #504646;
 } 
 .col-sm-4 > ul > li > a:hover{
     border-bottom:1px solid white  ;
