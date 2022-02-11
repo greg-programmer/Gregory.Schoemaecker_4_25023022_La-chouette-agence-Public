@@ -32,7 +32,7 @@ iframe{
 }
 .h3-title-color::before{
     content: '';
-    background:#504646;
+    background:#ffffff;
     background-size: 280px 280px;    
     position: absolute; 
     width: 85%;
@@ -46,8 +46,7 @@ iframe{
     margin: auto;
 }
 .h3-title-color-white{
-    color: #F3976C;
-    color: #DAD9CC;
+    color: #372c1a;    
     position:relative;
     font-size: 1.2em;
     font-weight: lighter;
