@@ -907,7 +907,7 @@ h4 {
    color:rgba(0, 0, 0, .6);
 }
 .white {
-    color: #504646 !important;
+    color: #372c1a !important;
 }
 
 .portfolio-thumb {
@@ -1292,7 +1292,7 @@ select{
     .a-nav:hover {
         font-family: "helvetica";
         font-weight: 400;
-        color: white!important;
+        color: #504646!important;
         transition-duration: 0.2s;
     }
 }
