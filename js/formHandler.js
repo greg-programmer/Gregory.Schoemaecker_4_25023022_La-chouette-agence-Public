@@ -42,7 +42,7 @@ $(function()
 		 			{  
 						if($form.is('[success-msg]')) // Show Success Message
 						{
-							$form.append("<div id='form-alert'><div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('success-msg')+"</strong></div></div>");
+							$form.append("<div id='form-alert'><div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='false'>&times;</button><strong>"+$form.attr('success-msg')+"</strong></div></div>");
 						}
 						else // Re-Direct
 						{
@@ -55,7 +55,7 @@ $(function()
 			   		{
 						if($('#form-alert').length == 0)
 						{
-							$form.append("<div id='form-alert'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('fail-msg')+"</strong></div></div>");
+							$form.append("<div id='form-alert'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='false'>&times;</button><strong>"+$form.attr('fail-msg')+"</strong></div></div>");
 						}	
 			   		},
 		   		});
