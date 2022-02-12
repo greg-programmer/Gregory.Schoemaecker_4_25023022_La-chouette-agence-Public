@@ -54,7 +54,7 @@ iframe{
     margin: 0;
     padding: 5px;
 }
- .h4-bloc-center{
+ .h3-bloc-center{
      width: 100%;
      display: flex;
      justify-content: center;
@@ -65,11 +65,12 @@ h4{
     margin: auto;
     font-size: 22px;
 }
-.h4-center{
+.h3-center{
     margin: auto;
     width: auto;
+    color: #000000;
 }
-.h4-margin-top{
+.h3-margin-top{
     
     width: auto;
 }
