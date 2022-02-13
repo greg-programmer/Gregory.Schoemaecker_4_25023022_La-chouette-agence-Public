@@ -827,7 +827,7 @@ p {
     text-align: center;
     padding: 20px;
     background-color: #F3976C;
-    color: #fff !important;
+    color: #372c1a !important;
     text-transform: uppercase;
 }
 p > i{
@@ -1310,11 +1310,11 @@ select{
     align-items: center;
 }
 .h1-contact{
-    color: white !important;
+    color: #372c1a !important;
     position: relative;
 }
 .h2-contact{
-    color: #ffffff;
+    color: #372c1a;
     position: relative;
     display: flex;
     width: 100%;
@@ -1388,7 +1388,7 @@ form{
      outline: none;
 }
 input[type=submit]{
-    color:white;
+    color:#372c1a;
     background: #F3976C;    
     padding: 10px;
     border-radius: 40px;   
@@ -1398,7 +1398,8 @@ input[type=submit]{
     justify-content: center;
     width: 200px;
     margin:  26px auto;
-    border: 2px solid #ffffff;
+    border: 1px solid #372c1a;
+    font-weight: 600;    
 } 
 input:focus[type=submit]{
     opacity: 0.8;
