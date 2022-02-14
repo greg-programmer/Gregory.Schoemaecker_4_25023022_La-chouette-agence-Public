@@ -1422,6 +1422,9 @@ label{
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.label-investigation{
+    font-size: 0.89em;
+}
 .bloc-radio{
     display: flex;
     width: 100%; 
