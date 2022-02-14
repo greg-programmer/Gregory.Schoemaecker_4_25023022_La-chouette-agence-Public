@@ -24,7 +24,7 @@ iframe{
     width: 550px;
     height: auto;
     margin: auto;    
-    background:url('img/dots-bg.png');         
+    background:url('img/dots-bg.webp');         
     color: #504646!important;
     position: relative;    
     display: flex;
