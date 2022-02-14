@@ -36,7 +36,8 @@ iframe{
     margin: auto;
 }
 .h3-title-color-white{
-    color: rgb(255, 207, 111);    
+    color: rgb(255, 207, 111); 
+    background-color: #00000005;   
     position:relative;
     font-size: 1.2em;
     font-weight: lighter;
@@ -942,6 +943,7 @@ h4 {
 
 .tc-white {
     color: rgba(255, 207, 111)!important;
+    background-color: #00000005;
 }
 
 .btn-atomic-tangerine {
