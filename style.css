@@ -42,8 +42,7 @@ iframe{
     font-weight: lighter;
     text-align: center;   
     margin: 0;
-    padding: 5px;    
-    text-shadow: 2px 2px 2px #000000;
+    padding: 5px;     
     font-weight: 600;
 }
  .h3-bloc-center{
@@ -403,8 +402,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 3em;
-    letter-spacing: 1.5px;
-    text-shadow: 2px 2px 1px #000000 ;
+    letter-spacing: 1.5px;   
 }
 
 .navbar {
