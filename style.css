@@ -856,8 +856,9 @@ p > i{
 }
 
 .social {
-    max-width: 400px;
+    max-width: 420px;
     margin: auto auto 39px auto;    
+    color: #372c1a;
 }
 .social:focus-visible .fa {      
     z-index: 20;
@@ -1254,6 +1255,7 @@ select{
         width: 100%;
         justify-content: space-between;
         margin-bottom: 25px;
+        align-items: center;
     }
     .nav > li:active{   
         background-color:#F3976C;
