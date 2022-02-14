@@ -1397,7 +1397,7 @@ input[type=submit]{
     font-family: Helvetica, sans-serif;
     letter-spacing: 1.5px;
     justify-content: center;
-    width: 200px;
+    width: 200px ;
     margin:  26px auto;
     border: 1px solid #372c1a;
     font-weight: 600;    
