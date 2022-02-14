@@ -30,30 +30,21 @@ iframe{
     display: flex;
     justify-content: center;    
 }
-.h3-title-color::before{
-    content: '';
-    background:#ffffff;
-    background-size: 280px 280px;    
-    position: absolute; 
-    width: 100%;
-    height: 100%;   
-    display: flex;    
-    box-shadow: 2px 2px 6px #504646; 
-    margin: auto;
-}
 .h3-title-white{
     color: #333333; 
     width: 100%;
     margin: auto;
 }
 .h3-title-color-white{
-    color: #372c1a;    
+    color: #F3976C;    
     position:relative;
     font-size: 1.2em;
     font-weight: lighter;
     text-align: center;   
     margin: 0;
     padding: 5px;    
+    text-shadow: 2px 2px 2px #000000;
+    font-weight: 600;
 }
  .h3-bloc-center{
      width: 100%;
@@ -413,6 +404,7 @@ a:hover {
 #bloc-1-hero h1 {
     font-size: 3em;
     letter-spacing: 1.5px;
+    text-shadow: 2px 2px 1px #000000 ;
 }
 
 .navbar {
@@ -832,6 +824,7 @@ p {
     background-color: #F3976C;
     color: #372c1a !important;
     text-transform: uppercase;
+    font-weight: 600;
 }
 p > i{
     font-size: x-large;  
@@ -1225,7 +1218,7 @@ select{
     }
     .h3-title-color{
         width: 90%;
-    }
+    } 
 }
 @media (max-width: 767px) {
     .bloc-mob-center-text {
@@ -1450,8 +1443,8 @@ label{
 }
 
 .location{
-    width: 500px;
-    height: 360px;
+    width: 650px;
+    height: 630px;
     background-color:#F3976C;
     display: flex;
     justify-content: space-evenly;
@@ -1469,6 +1462,7 @@ label{
 }
 .location .h3-form{
     padding-top: 20px;
+    padding-bottom: 15px;
 }
 .a-localisation{
     position: relative;
@@ -1476,6 +1470,7 @@ label{
 .a-localisation > i{
     font-size: 50px;
     color: white;
+    display: none;
 }
 .a-localisation:focus-visible > i{
     font-size: 50px;
@@ -1535,6 +1530,7 @@ textarea:focus{
     }
     .a-localisation > i{
         padding-bottom: 30px;
+        display: block;
     }
     .location > h3, address{
        margin:30px ;    
