@@ -1473,6 +1473,13 @@ label{
 }
 .a-localisation{
     position: relative;
+    margin-bottom: 20px;
+    color: #372c1a;    
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: lowercase;
 }
 .a-localisation > i{
     font-size: 1.6em;
@@ -1540,7 +1547,7 @@ textarea:focus{
         display: block;
     }
     .location > h3, address{
-       margin:30px ;    
+       margin:30px auto 50px auto ;    
     }   
 }
 @media all and (max-width:425px){
