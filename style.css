@@ -109,6 +109,10 @@ li > a:focus-visible{
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: #FFF;
+}
+a:focus-visible{
+    color: #372c1a;
 }
 .a-nav:active{
     font-family: "helvetica";
@@ -1427,7 +1431,7 @@ label{
 }
 .bloc-radio{
     display: flex;
-    width: 100%; 
+    width: 115%; 
 }
 .div-form-area{
     display: flex;
@@ -1439,8 +1443,7 @@ label{
     flex-direction: column;  
     width: 90%;   
 }
-.inline-input{
-    font-size: 1.2em;
+.inline-input{  
     font-family: Helvetica, sans-serif;
     margin-bottom: 2px;
     margin-right: 10px;
@@ -1482,14 +1485,14 @@ label{
     text-transform: lowercase;
 }
 .a-localisation > i{
-    font-size: 1.6em;
+    font-size: 45px;
     color: #372c1a;
     display: none;
 }
 .a-localisation:focus-visible > i{
     font-size: 50px;
-    color: black;
-}
+    color: black;}
+
 textarea{
     font-size: 1.2em;
     font-family: Helvetica;
